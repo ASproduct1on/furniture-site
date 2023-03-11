@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Услуги по 3D моделированию</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="./images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#b91d47" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <div class="row justify-content-between main-header">
+            <div class="col-md-2 col-sm-4 col-4">
+              <div class="logo">
+                <img class="logo-img" src="images/3dglo.png" alt="..." />
+              </div>
+            </div>
+            <div
+              class="col-md-4 col-md-offset-6 col-sm-4 col-sm-offset-2 col-5 col-offset-0"
+            >
+              <div class="media phone-media">
+                <div class="media-left media-middle">
+                  <img class="media-object" src="images/phone.svg" alt="..." />
+                </div>
+                <div class="media-body">
+                  <small>Есть вопросы? Звоните!</small>
+                  <p class="phone">8 843 249-00-64</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 col-sm-2 col-3">
+              <div class="menu">
+                <img src="images/menu.svg" alt="" /><br />
+                <small>Меню</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <h1>Услуги по 3D моделированию</h1>
+      <h2>полный спектр услуг</h2>
+      <div class="timer">
+        <div class="timer-title">
+          Оставьте заявку сейчас и получите дизайн интерьера 25кв<sup>2</sup>
+          бесплатно!*
+        </div>
+        <div class="timer-action">До конца акции осталось</div>
+        <div class="timer-numbers" id="timer">
+          <span id="timer-hours">19</span>
+          <span>:</span>
+          <span id="timer-minutes">45</span>
+          <span>:</span>
+          <span id="timer-seconds">12</span>
+        </div>
+      </div>
+      <form id="form1" name="user_form" class="main-form">
+        <div class="main-form-input container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <input
+                type="text"
+                class="form-name"
+                id="form1-name"
+                name="user_name"
+                placeholder="Ваше имя"
+                required
+              />
+            </div>
+            <div class="col-12 col-lg-4">
+              <input
+                type="email"
+                class="form-email"
+                id="form1-email"
+                name="user_email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="col-12 col-lg-4">
+              <input
+                type="tel"
+                class="form-phone"
+                id="form1-phone"
+                name="user_phone"
+                placeholder="Номер телефона"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <button class="btn form-btn" type="submit">Оставить заявку!</button>
+          </div>
+        </div>
+      </form>
+      <small>*Мы гарантируем конфидициальность передаваемых данных</small>
+      <br />
+      <a href="#service-block"><img src="images/scroll.svg" alt="" /></a>
+    </main>
+
+    <menu>
+      <a class="close-btn" href="#close">&times;</a>
+      <ul>
+        <li><a href="#service-block">Наши услуги</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#calc">Калькулятор стоимости</a></li>
+        <li><a href="#command">Наша команда</a></li>
+        <li><a href="#connect">Остались вопросы?</a></li>
+      </ul>
+    </menu>
+
+    <div id="service-block" class="service">
+      <div class="container">
+        <h2>Наши услуги</h2>
+        <div class="underline"></div>
+        <div class="row service-header">
+          <div class="col-12 col-lg-4 service-header-tab active">
+            Дизайн <span>интерьера</span>
+          </div>
+          <div class="col-12 col-lg-4 service-header-tab">
+            Дизайн <span>экстерьера</span>
+          </div>
+          <div class="col-12 col-lg-4 service-header-tab">
+            Визуальная <span>анимация</span>
+          </div>
+        </div>
+
+        <div class="service-tab row">
+          <div class="service-outer col-md-6 col-sm-6 col-12">
+            <div class="service-inner">
+              <div class="service-text">
+                <p>
+                  Услуга, направленная на разработку интерьеров помещений с
+                  целью обеспечить удобство и эстетически приятное ощущение у
+                  человека при нахождении в помещении
+                </p>
+                <button class="btn form-btn popup-btn">Оставить заявку!</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="images/service/service-1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="service-tab row d-none">
+          <div class="col-md-6 col-sm-6">
+            <img src="images/service/service-2.png" alt="" />
+          </div>
+          <div class="service-outer col-md-6 col-sm-6 col-12">
+            <div class="service-inner">
+              <p>
+                Услуга, направленная на разработку дизайна прилегающих элементов
+                зданий, а также дизайн самих зданий, позволяющая обеспечить
+                удобство людей при нахождении на территории
+              </p>
+              <button class="btn form-btn popup-btn">Оставить заявку!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-tab row d-none">
+          <div class="service-outer col-md-6 col-sm-6 col-12">
+            <div class="service-inner">
+              <p>
+                Услуга, направленная на разработку дизайна с анимацией, дизайн
+                интерьера и экстерьера
+              </p>
+              <button class="btn form-btn popup-btn">Оставить заявку!</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="images/service/service-3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="portfolio">
+      <div class="container">
+        <h2>Портфолио</h2>
+        <div class="underline"></div>
+        <ul class="portfolio-content" id="all-progects">
+          <li class="portfolio-item portfolio-item-active">
+            <img src="images/portfilio/portfolio-01.jpg" alt="portfolio" />
+          </li>
+          <li class="portfolio-item">
+            <img src="images/portfilio/portfolio-04.jpg" alt="portfolio" />
+          </li>
+          <li class="portfolio-item">
+            <img src="images/portfilio/portfolio-06.jpg" alt="portfolio" />
+          </li>
+          <li class="portfolio-item">
+            <img src="images/portfilio/portfolio-07.jpg" alt="portfolio" />
+          </li>
+          <li class="portfolio-item">
+            <img src="images/portfilio/portfolio-08.jpg" alt="portfolio" />
+          </li>
+          <li class="portfolio-item">
+            <img src="images/portfilio/portfolio-10.jpg" alt="portfolio" />
+          </li>
+          <a href="#" class="portfolio-btn prev" id="arrow-left"></a>
+          <a href="#" class="portfolio-btn next" id="arrow-right"></a>
+          <ul class="portfolio-dots">
+            <li class="dot dot-active"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <div id="calc" class="calc">
+      <div class="container">
+        <h2>Рассчитать стоимость</h2>
+        <div class="underline"></div>
+        <div class="row">
+          <div class="col-lg-6 d-none d-lg-block flex">
+            <img src="images/calc/flat.jpg" alt="Офис" />
+          </div>
+          <div class="col-lg-6 col-12 flex">
+            <div class="calc-block">
+              <select class="calc-item calc-type" required>
+                <option class="calc-option-title" value="">
+                  Выберите тип объекта*
+                </option>
+                <option value="1">Интерьер Квартиры</option>
+                <option value="1.4">Интерьер Частного дома</option>
+                <option value="2">Интерьер Офиса</option>
+              </select>
+              <input
+                type="text"
+                min="1"
+                step="1"
+                class="calc-item calc-square"
+                placeholder="Общая площадь*"
+              />
+              <input
+                type="text"
+                min="1"
+                step="1"
+                class="calc-item calc-count"
+                placeholder="Количество помещений"
+              />
+              <input
+                type="text"
+                min="1"
+                step="1"
+                class="calc-item calc-day"
+                placeholder="Срок исполнения (в днях)"
+              />
+              <div class="calc-total">ИТОГО: <span id="total">0</span></div>
+              <div class="calc-mini">
+                * стоимость по умолчанию расчитывается на 1 помещение и срок 10
+                дней <br />
+                **точная стоимость и сроки работ обговариваются индивидуально,
+                после ознакомления с техническим заданием.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="companies" class="companies">
+      <div class="container">
+        <h2>Нам доверяют</h2>
+        <div class="underline"></div>
+        <div class="companies-wrapper">
+          <div class="companies-hor">
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-1.png" alt="" />
+            </div>
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-2.png" alt="" />
+            </div>
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-3.png" alt="" />
+            </div>
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-4.png" alt="" />
+            </div>
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-5.png" alt="" />
+            </div>
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-6.png" alt="" />
+            </div>
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-7.png" alt="" />
+            </div>
+            <div class="companies-hor-item">
+              <img src="images/companies/companies-8.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="command" class="command">
+      <div class="container">
+        <h2>Наша команда</h2>
+        <div class="underline"></div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-12">
+            <img
+              class="command__photo"
+              src="images/command/command-1.jpg"
+              data-img="images/command/command-1a.jpg"
+              alt=""
+            />
+            <div class="description">Quentin Tarantino</div>
+            <p>Директор компании</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <img
+              class="command__photo"
+              src="images/command/command-2.jpg"
+              data-img="images/command/command-2a.jpg"
+              alt=""
+            />
+            <div class="description">Parker Posey</div>
+            <p>Финансовый директор</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <img
+              class="command__photo"
+              src="images/command/command-3.jpg"
+              data-img="images/command/command-3a.jpg"
+              alt=""
+            />
+            <div class="description">Gonzalo Higuaín</div>
+            <p>Инженер модельер</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <img
+              class="command__photo"
+              src="images/command/command-4.jpg"
+              data-img="images/command/command-4a.jpg"
+              alt=""
+            />
+            <div class="description">Liam Payne</div>
+            <p>3D дизайнер</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <img
+              class="command__photo"
+              src="images/command/command-5.jpg"
+              data-img="images/command/command-5a.jpg"
+              alt=""
+            />
+            <div class="description">Bristol Palin</div>
+            <p>Дизайнер интерьеров</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12">
+            <img
+              class="command__photo"
+              src="images/command/command-6.jpg"
+              data-img="images/command/command-6a.jpg"
+              alt=""
+            />
+            <div class="description">Dominic Monaghan</div>
+            <p>Дизайнер ландшафтов</p>
+          </div>
+        </div>
+        <div class="quote">
+          <img class="cov-left" src="images/command/cov-1.png" alt="" />
+          <div class="description">Ты - то, что ты делаешь!</div>
+          <p>А в начале пути мало, кто в нас верил, не правда ли?</p>
+          <span>Quentin Tarantino</span>
+          <p>Директор</p>
+          <img class="cov-right" src="images/command/cov-2.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="connect" class="connect">
+      <div class="container">
+        <h2>Остались вопросы?</h2>
+        <div class="underline"></div>
+        <div class="description">
+          Задайте их в форме ниже и наши специалисты свяжуться с Вами!
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-12">
+            <form id="form2" name="user_form" class="footer-form">
+              <div class="footer-form-input">
+                <div class="row">
+                  <div
+                    class="col-md-4 col-md-offset-0 col-sm-12 col-sm-offset-0"
+                  >
+                    <input
+                      class="top-form"
+                      id="form2-name"
+                      type="text"
+                      name="user_name"
+                      placeholder="Ваше имя"
+                      required
+                    />
+                  </div>
+                  <div
+                    class="col-md-4 col-md-offset-0 col-sm-12 col-sm-offset-0"
+                  >
+                    <input
+                      class="top-form form-email"
+                      id="form2-email"
+                      type="email"
+                      name="user_email"
+                      placeholder="E-mail"
+                    />
+                  </div>
+                  <div
+                    class="col-md-4 col-md-offset-0 col-sm-12 col-sm-offset-0"
+                  >
+                    <input
+                      class="top-form form-phone"
+                      id="form2-phone"
+                      type="tel"
+                      name="user_phone"
+                      placeholder="Номер телефона"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <input
+                      class="mess"
+                      id="form2-message"
+                      name="user_message"
+                      placeholder="Ваше сообщение"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="justify-content-center">
+                <div>
+                  <button class="btn form-btn" type="submit">
+                    Оставить заявку!
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-12">
+            <div class="connect-adress">
+              <img src="images/connect/phone.svg" alt="" />
+              <p>+ 7 843 249 00 64</p>
+            </div>
+            <div class="connect-adress">
+              <img src="images/connect/whatsapp.svg" alt="" />
+              <p>+ 7 843 249 00 64</p>
+            </div>
+            <div class="connect-adress">
+              <img src="images/connect/letter.svg" alt="" />
+              <p>manager@glo-academy.ru</p>
+            </div>
+            <div class="connect-adress">
+              <img src="images/connect/skype.svg" alt="" />
+              <p>skype: glo-academy</p>
+            </div>
+            <div class="connect-adress">
+              <img src="images/connect/tele.svg" alt="" />
+              <p>telegram: glo-academy</p>
+            </div>
+            <p>График работы: с 9-00 до 18-00. Пн.-Пт.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-2 col-sm-2 col-12">
+            <a href="#">Главная</a><br />
+            <a href="#">Тарифы</a><br />
+          </div>
+          <div class="col-md-2 col-sm-3 col-12">
+            <a href="#">Вопросы-ответы</a><br />
+            <a href="#">Личный кабинет</a><br />
+          </div>
+          <div class="col-md-3 col-sm-4 col-12">
+            <a href="#">Новости</a><br />
+            <a href="#">Договор публичной оферты</a><br />
+          </div>
+          <div
+            class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-0 col-12 col-offset-0"
+          >
+            <p>Мы в социальных сетях:</p>
+            <a href=""><img src="images/footer/face.svg" alt="" /></a>
+            <a href=""><img src="images/footer/google.svg" alt="" /></a>
+            <a href=""><img src="images/footer/insta.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-12 d-flex align-items-center">
+            <p>2020. Все права защищены</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-12 web">
+            <img src="./images/footer/academy.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup">
+      <div class="popup-content">
+        <button class="popup-close">&times;</button>
+        <div class="main-form">
+          <h3>Введите свои данные для связи с нами!</h3>
+          <form id="form3" name="user_form">
+            <div>
+              <input
+                type="text"
+                class="form-name"
+                id="form3-name"
+                name="user_name"
+                placeholder="Ваше имя"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="tel"
+                class="form-phone"
+                id="form3-phone"
+                name="user_phone"
+                placeholder="Ваш номер телефона"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                class="form-email"
+                id="form3-email"
+                name="user_email"
+                placeholder="Ваш E-mail"
+              />
+            </div>
+            <button class="btn form-btn" type="submit">Оставить заявку!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
